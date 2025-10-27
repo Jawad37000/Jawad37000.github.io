@@ -1199,6 +1199,11 @@ section,
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
+  max-width: 30em;
+}
+
+.portfolio .portfolio-item img {
+  height: 15em;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1256,7 +1261,8 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 30em;
+  height: 20em;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1420,4 +1426,20 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.codebouton {
+  position: absolute;
+  right: 5%;
+  top: 33%;
+  scale: 1.5;
+  color: black; /* ou white selon ton fond */
+  z-index: 10;  /* important si l'image passe au-dessus */
+}
+
+.links{
+  position: absolute;
+  right: 15%;
+  top: 33%;
+  scale: 1.8;
 }
